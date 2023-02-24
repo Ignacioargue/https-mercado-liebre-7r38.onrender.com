@@ -17,16 +17,19 @@ p{
     font-size: 12px;
 }
 div.top-header{
-    padding: 5%;
-}
+    padding:5px;    
+}   
+
+
 
 header{
-    background-color: #EAC926;
-    height: 345px;
+    background-color: hsl(56, 100%, 51%);
+    height: 100px;
+    
 }
 
 header div.logo{
-    width: 10%;
+    width: 8%;
    
 }
 
@@ -104,7 +107,7 @@ h3,
 }
 
 section.banner img{
-   height: 255%;
+   height: 286px;
 }
 
 main{
@@ -139,7 +142,7 @@ main section article i{
     top: -15px;}
 
 main section h3{
-    margin: 20px 0px;
+    margin: 10px 0px;
 }
 
 article div.main-article{
@@ -158,6 +161,8 @@ article div.main-article{
 .products {display: flex;
     flex-direction: column;}
 
+
+
 @media (min-width: 425px){
     main section article .description{
         display: block;
@@ -172,7 +177,7 @@ article div.main-article{
         flex-wrap: wrap;
     ;}
 
-    .products article {width: 45%;}
+    .products article {width: 25%;}
 }
 
 @media (min-width: 769px){
@@ -180,4 +185,4 @@ article div.main-article{
 
 .products { flex-direction: row;}
 
-.products article {width: 45%;}
+.products article {width: 25%;}
